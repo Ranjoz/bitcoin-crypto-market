@@ -1,0 +1,72 @@
+# Cryptocurrency Data Inventory
+## Available Datasets in /data/raw/
+
+### 📊 Dataset Summary
+- **Total Cryptocurrencies**: 23
+- **Data Format**: CSV files
+- **File Naming Convention**: coin_{CryptoName}.csv
+- **Expected Columns**: Date, Open, High, Low, Close, Volume, Market Cap
+
+### 📋 Available Cryptocurrencies
+
+1. **coin_Aave.csv** - Aave (AAVE)
+2. **coin_BinanceCoin.csv** - Binance Coin (BNB)
+3. **coin_Bitcoin.csv** - Bitcoin (BTC) 🚀
+4. **coin_Cardano.csv** - Cardano (ADA)
+5. **coin_ChainLink.csv** - Chainlink (LINK)
+6. **coin_Cosmos.csv** - Cosmos (ATOM)
+7. **coin_CryptocomCoin.csv** - Crypto.com Coin (CRO)
+8. **coin_Dogecoin.csv** - Dogecoin (DOGE)
+9. **coin_EOS.csv** - EOS (EOS)
+10. **coin_Ethereum.csv** - Ethereum (ETH)
+11. **coin_Iota.csv** - IOTA (MIOTA)
+12. **coin_Litecoin.csv** - Litecoin (LTC)
+13. **coin_Monero.csv** - Monero (XMR)
+14. **coin_NEM.csv** - NEM (XEM)
+15. **coin_Polkadot.csv** - Polkadot (DOT)
+16. **coin_Solana.csv** - Solana (SOL)
+17. **coin_Stellar.csv** - Stellar (XLM)
+18. **coin_Tether.csv** - Tether (USDT)
+19. **coin_Tron.csv** - TRON (TRX)
+20. **coin_Uniswap.csv** - Uniswap (UNI)
+21. **coin_USDCoin.csv** - USD Coin (USDC)
+22. **coin_WrappedBitcoin.csv** - Wrapped Bitcoin (WBTC)
+23. **coin_XRP.csv** - XRP (XRP)
+
+### 🎯 Priority Cryptocurrencies for Analysis
+**Selected for comprehensive analysis:**
+- Bitcoin (BTC) - Primary reference
+- Ethereum (ETH) - Largest altcoin
+- XRP (XRP) - Traditional payment focus
+- Litecoin (LTC) - Bitcoin alternative
+- Cardano (ADA) - Smart contract platform
+- Polkadot (DOT) - Interoperability
+- Solana (SOL) - High-performance blockchain
+- Dogecoin (DOGE) - Meme coin
+- Binance Coin (BNB) - Exchange token
+- Chainlink (LINK) - Oracle network
+
+### 📅 Expected Data Coverage
+- **Start Date**: Varies by cryptocurrency (earliest: ~2013 for Bitcoin)
+- **End Date**: Most recent available data
+- **Frequency**: Daily data
+- **Typical Range**: 1000-3000+ records per currency
+
+### 🔍 Data Quality Notes
+- Some cryptocurrencies may have shorter history
+- Missing values may occur for newer currencies
+- Market cap data availability varies
+- Volume data should be available for all major currencies
+
+### 📁 File Structure
+```
+data/
+├── raw/
+│   ├── coin_*.csv (original datasets)
+└── processed/
+    └── (cleaned and feature-engineered data will be saved here)
+```
+
+---
+*Last Updated: October 8, 2025*
+*Total Size: ~23 CSV files with historical cryptocurrency data*
